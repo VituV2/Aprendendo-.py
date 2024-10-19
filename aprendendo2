@@ -1,0 +1,15 @@
+nome = str(input("Qual seu nome?"))
+nota = float(input("Qual foi sua nota na prova?"))
+
+if nota == 6:
+    print ("Você foi bem,",nome)
+elif nota == 5.9:
+    print ("Foi quase lá",nome)
+elif nota >= 10.1:
+    print ("Você esta mentindo a prova é de 0 a 10",nome)
+elif nota <= 0.1:
+    print ("Você esta mentindo a prova é de 0 a 10",nome)    
+elif nota >= 10:
+    print ("Você é esperto",nome)        
+else:
+    print ("tu é burro",nome)
